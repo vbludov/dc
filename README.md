@@ -1,4 +1,4 @@
-# Docker Container Management Tool
+# Docker Container Bash Management Tool
 
 A simple, menu-driven Bash script for basic Docker container management. This tool leverages the `dialog` utility to provide an interactive text-based user interface for managing Docker containers.
 
