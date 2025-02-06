@@ -220,7 +220,7 @@ show_images() {
            --msgbox "$images" 20 120
 }
 
-# Exec into a container with bash, not to be confused with famous "drop" command :-)
+# Exec into a container with bash, not to be confused with the famous "drop" command :-)
 exec_into_container() {
     local container_id
     container_id=$(select_container)
