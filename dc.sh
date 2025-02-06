@@ -1,4 +1,20 @@
 #!/usr/bin/env bash
+# ======================================================================================
+# Script Name: dc.sh
+#
+# Description: A simple, menu-driven Bash script for basic Docker container management. 
+#       This tool leverages the `dialog` utility to provide an interactive text-based user -
+#       interface for managing Docker containers.
+#
+# Author: Viktor Bludov <v@bludov.com>
+# Date: 2025-02-06
+#
+# Usage: ./dc.sh
+#   For system-wide usage, rename the script to `dc` (if desired) and move it to `/usr/local/bin/`: 
+#   sudo mv dc.sh /usr/local/bin/dc
+#   sudo chmod +x /usr/local/bin/dc
+# ======================================================================================
+
 
 ###############################################
 # Function: Attempt to install dialog
